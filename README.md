@@ -1,4 +1,6 @@
 # PeachOS
-Simple multi-threaded kernel written in C and Assembly.
+Software implementation of the Operating System (OS) concepts. The OS supports running multiple threads concurrently with shared address space between the threads. Moreover, that OS uses the paging technique to provide a virtual address space for each process. 
 
-Want to make this exact kernel? Buy the course here: https://dragonzap.com/course/developing-a-multithreaded-kernel-from-scratch?coupon=GITHUBDISCOUNT
+• The OS can use the Keyboard functionalities to detect pressed keys and print characters to the interactive shell. 
+• implemented the File Allocation Table (FAT16) functionalities to provide an interface for the filesystem subroutines, i.e, file open, read, write, and close. 
+• provided an interface for user-level programs to invoke system calls to access kernel privileged functions, i.e, getkey, putchar, malloc, and program exit.
